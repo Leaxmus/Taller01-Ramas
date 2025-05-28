@@ -2,4 +2,4 @@
 
 Resultado cambio titulo
 
-![Resultado titulo](TopMusical\img\capturas\resultado_titulo.png)
+![Resultado titulo](TopMusical/img/capturas/resultado_titulo.png)
