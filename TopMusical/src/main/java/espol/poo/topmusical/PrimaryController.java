@@ -45,7 +45,7 @@ public class PrimaryController {
             } catch (FileNotFoundException ex) {
                 ex.printStackTrace();
             }
-            Label lbT = new Label(c.getCantante() + " \n" + c.getTitulo());//Cantante,Titulo
+            Label lbT = new Label(c.getCantante() + " \n" + c.getTitulo() + " \n" + c.getGenero());//Cantante,Titulo y Genero
             lbT.setStyle("-fx-font-weight: bold;-fx-font-size: 14;");
 
             hb.getChildren().addAll(lbp, iv, lbT);//agregar al hbox
